@@ -214,21 +214,43 @@ footer a {
 }
 @media screen and (min-width: 1200px) {
     header{
-        text-align: start;
-    }    
-    header div img{
-        display: inline-block;
-        height: 50px;
-        width: auto;
+        padding: 1em;
     }
-    header p{
-        display: inline-block;
+   header div{
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+   }
+   nav{
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+   }
+   header div p{
+    display: inline;
+    margin-left: 1em;
+   }
+   header div img{
+    margin: 0;
+    height: 35px;
+    width: auto;
+   }
+   th, td {
+    padding-right: 150px;
+    padding-left: 80px;
+}
+    table{
+        margin: 5em;
     }
-    nav{
+    iframe {
+        max-width: 48%;
+        height: 350px;
         display: inline;
-        max-width: 200px;
     }
-    nav ul{
-        display: inline;
+    #novita{
+        display: inline-block;
+        max-width: 49%;
+        border-radius: 5px;
+        height: 350px;
     }
 }
