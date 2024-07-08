@@ -246,14 +246,19 @@ footer a {
         max-width: 48%;
         height: 350px;
         display: inline-block;
+        margin: 1px;
     }
     #novita{
         display: inline-block;
-        max-width: 48%;
-        border-radius: 5px;
+        max-width: 45%;
+        border-radius: 20px;
         height: 350px;
+        position: absolute;
+        margin: 1px;
     }
-    #ciuchino{
-        max-height: 350px;
+    aside div {
+        display: inline-block;
+        width: 33%;
     }
+    
 }
