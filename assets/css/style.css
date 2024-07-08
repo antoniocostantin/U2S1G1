@@ -4,7 +4,7 @@ body {
     font-family: Poppins, 'Helvetica Neue', sans-serif;
     font-size: 1.4rem;
     line-height: 1.5;
-    padding: 15px;
+    padding: 25px;
     background-image: url('../img/sfondo.png');
     background-position: center center;
 }
@@ -31,6 +31,7 @@ header nav ul {
 }
 header nav li {
     list-style: none;
+    display: inline-block;
 }
 header nav li a {
     color: white;
@@ -71,6 +72,13 @@ h1 {
     letter-spacing: -0.03em;
     margin-bottom: 0.7em;
 }
+#badge{
+    border:5px solid #27a1c7;
+    outline:5px solid #a12573;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
 p, address, ul, ol, dl, blockquote {
     margin-bottom: 1.2em;
 }
@@ -130,6 +138,9 @@ tbody tr:last-of-type {
 }
 
 /* FORM */
+#novita h2{
+    background-color: #a3a3a3;
+}
 input {
     padding: 5px;
     border: 0;
@@ -173,8 +184,51 @@ footer {
     color: #f0f0f0;
     padding: 1em;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 footer a {
     color: fuchsia;
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        padding: 2em;
+    }
+    h1 {
+        font-size: 5.5rem;
+        font-weight: 999;
+    }
+    table{
+        margin:5em auto;
+    }
+    input{
+        padding: 10px;
+        padding-right: 250px;
+    }
+    button{
+        padding: 10px 15px;
+    }
+    aside h2{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    header{
+        text-align: start;
+    }    
+    header div img{
+        display: inline-block;
+        height: 50px;
+        width: auto;
+    }
+    header p{
+        display: inline-block;
+    }
+    nav{
+        display: inline;
+        max-width: 200px;
+    }
+    nav ul{
+        display: inline;
+    }
 }
