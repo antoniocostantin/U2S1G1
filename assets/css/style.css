@@ -245,12 +245,15 @@ footer a {
     iframe {
         max-width: 48%;
         height: 350px;
-        display: inline;
+        display: inline-block;
     }
     #novita{
         display: inline-block;
-        max-width: 49%;
+        max-width: 48%;
         border-radius: 5px;
         height: 350px;
+    }
+    #ciuchino{
+        max-height: 350px;
     }
 }
